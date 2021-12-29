@@ -6,9 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0">
 
 
-    <link rel="stylesheet" href="src/css/style.css">
+
     <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="src/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
 
 
     <title>Christmas Gifts</title>
@@ -143,9 +145,60 @@
             </article>
         </div>
     </section>
+
+    <section class="new section container" id="new">
+        <h2 class="section__title">New Gifts</h2>
+        <div class="new__container">
+            <div class="swiper new-swiper">
+                <div class="swiper-wrapper">
+                    <article class="new__card swiper-slide">
+                        <div class="new__overlay"></div>
+                        <img src="src/img/new1.png" alt="" class="new__img">
+                        <h3 class="new__price">$95</h3>
+                        <span class="new__title">Reindeer</span>
+                        <button class="button new__button">
+                            <i class='bx bx-heart new__icon'></i>
+                        </button>
+                    </article>
+
+                    <article class="new__card swiper-slide">
+                        <div class="new__overlay"></div>
+                        <img src="src/img/new2.png" alt="" class="new__img">
+                        <h3 class="new__price">$20</h3>
+                        <span class="new__title">Snow Globe</span>
+                        <button class="button new__button">
+                            <i class='bx bx-heart new__icon'></i>
+                        </button>
+                    </article>
+
+                    <article class="new__card swiper-slide">
+                        <div class="new__overlay"></div>
+                        <img src="src/img/new3.png" alt="" class="new__img">
+                        <h3 class="new__price">$75</h3>
+                        <span class="new__title">Sledge</span>
+                        <button class="button new__button">
+                            <i class='bx bx-heart new__icon'></i>
+                        </button>
+                    </article>
+
+                    <article class="new__card swiper-slide">
+                        <div class="new__overlay"></div>
+                        <img src="src/img/new4.png" alt="" class="new__img">
+                        <h3 class="new__price">$15</h3>
+                        <span class="new__title">Christmas Wreath</span>
+                        <button class="button new__button">
+                            <i class='bx bx-heart new__icon'></i>
+                        </button>
+                    </article>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
 </main>
 
-
+<script src="src/js/swiper-bundle.min.js"></script>
 <script src="src/js/main.js"></script>
+
 </body>
 </html>
