@@ -521,3 +521,6 @@ button {
     top: 75%;
     right: -4rem;
 }
+.active-link {
+    color: var(--first-color);
+}
