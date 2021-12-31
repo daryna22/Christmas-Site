@@ -62,3 +62,20 @@ function scrollActive(){
     })
 }
 window.addEventListener('scroll', scrollActive)
+
+function scrollUp(){
+    const scrollUp = document.getElementById('scroll-up');
+
+    if(this.scrollY >= 350) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
+
+/* DARK THEME */
+ const themeButton = document.getElementById('theme-button')
+const darkTheme = 'dark-theme'
+const iconTheme = 'bx-sun'
+
+const selectedTheme = localStorage.getItem('selected-theme')
+const selectedIcon = localStorage.getItem('selected-icon')
+
+const getCurrentTheme =
